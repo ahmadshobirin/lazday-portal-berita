@@ -1,0 +1,5 @@
+.required::before{
+    font-weight: bold;
+    color: indianred;
+    content: "*";
+}

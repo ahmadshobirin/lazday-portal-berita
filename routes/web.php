@@ -19,4 +19,6 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::view('/admin', 'layouts.main-backoffice');
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
